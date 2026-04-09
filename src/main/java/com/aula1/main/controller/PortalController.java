@@ -12,21 +12,17 @@ public class PortalController {
     
     @GetMapping("/portal")
     public String abrirPortal(){
-        return "portal";
-     
-    }
+        return "portal";     
+    }   
     
     @GetMapping("/servicos")
     public String abrirServicos(){
-        return "servicos";
-        
+        return "servicos";        
     }
-    
-    
+       
     @GetMapping("/contato")
     public String abrirContato(){
-        return "contato";
-        
+        return "contato";    
     }
     
 }
